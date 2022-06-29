@@ -210,9 +210,10 @@ main img{
 
 }
 
-
-
-
+/* Hover sencillo en nav */
+nav ul li a:hover{
+    font-size: large
+}
 
 
 
