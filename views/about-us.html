@@ -5,29 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The real real people - Agencia de talentos</title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    
     <!-- mi CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="container">
-    <nav class="miNav">
+<!-- en body va la clase container y la borré -->
+<body>       
+<!-- Empieza nav bootstrap -->
+    
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#131313 ;font-size: large;">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+        <img src="../img/logo.png" alt="logo de trrp">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="about-us.html">ABOUT US</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link" href="projects.html">PROJECTS</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link" href="careers.html">CAREERS</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!-- Termina nav bootstrap -->
+    
+    <!-- <nav class="miNav">
         <a href="../index.html"> 
             <img src="../img/logo.png" class="imagenLogo" alt="logo de trrp">
-        </a>
-    
+        </a>   
         <ul>
             <li><a href="about-us.html">ABOUT US</a></li>
             <li><a href="projects.html">PROJETCS</a></li>
             <li><a href="careers.html">CAREERS</a></li>
         </ul>
-    </nav>
+    </nav> -->
     
-    <header class="about miHeader"> 
-        <h1>ABOUT THE AGENCY</h1>
-    </header>
+    <header> 
+        <h1 class="px-4 my-4">ABOUT THE AGENCY</h1>
+    </header> 
+    <section class="w-50 px-4" >
+        <h2>WHY ARE WE HERE?</h2>
+            <p>We're finally beginning to understand the power of representation. 
+            Portraying "real people" on media not only creates better connections between brands and people, but it also, and most importantly, changes our inner perceptions and self-acceptance for good.
+            </p>
+            <p>Unfortunately, model and casting companies still just receiving portfolios from people that only fulfill traditional beauty standards. Receiving is easier than recruiting. 
+            Maybe that's why there's a lack of diversity in their portfolio.</p>
+            <p>That's where we come in, to break the wheel. 
+            We want to create a portfolio of "real people" at the disposition of any producer in order to finally have representation in media.</p>
+    </section>
     
-    <main class="miMain"> 
+    <section class="class= w-50 px-4">
+        <h3>HOW WE DO IT?</h3>
+        <p>We're enablers for people. 
+        We want to make as simple as possible to be picked and shoot with a positive experience, and get paid by it without any problem. 
+        Here's how we do it.
+        </p>
+        <p><b>Easy Access.</b> Your polas will be display in a digital platform for brands and production companies. 
+        Creating equal opportunities for everybody at The Real Real People®.
+        </p>
+        <p><b>No shady projects.</b> Not only do we connect you with the best agencies, photographers, producers, and production companies in town, and the country but also join you to take care of you. We make sure you have the best experience while shooting.
+        </p>
+        <p><b>Fair baseline and fair deals.</b> We do the negotiations for you, making sure that you never get scammed. We believe in equality, all our talent gets the same amount of money. Oh, and also believe in transparency, that's why you'll always have access to financial information according to your contract and our fees.</p>
+    </section>
     
-        <section class="whyHow">
+    
+    <main> 
+
+    
+        <!-- <section class=whyHow>
         <h2>WHY ARE WE HERE?</h2>
         <p>We're finally beginning to understand the power of representation. 
         Portraying "real people" on media not only creates better connections between brands and people, but it also, and most importantly, changes our inner perceptions and self-acceptance for good.
@@ -50,15 +106,17 @@
         <p><b>No shady projects.</b> Not only do we connect you with the best agencies, photographers, producers, and production companies in town, and the country but also join you to take care of you. We make sure you have the best experience while shooting.
         </p>
         <p><b>Fair baseline and fair deals.</b> We do the negotiations for you, making sure that you never get scammed. We believe in equality, all our talent gets the same amount of money. Oh, and also believe in transparency, that's why you'll always have access to financial information according to your contract and our fees.</p>
-        </section>
-    </main>
+        </section> -->
+    </main> 
     
-    <footer class="pie" class="miFooter"> 
+    <footer class="pie py-1 px-5"> 
         <a href="https://www.instagram.com/realrealpeople/" target="_blank">
-        <img src="../img/instagram.png" alt="">
+        <img src="../img/instagram.png" alt="logo instagram">
         </a>
-    </footer>
-
+    </footer> 
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     
 

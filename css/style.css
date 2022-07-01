@@ -47,7 +47,7 @@ p{
 }
 
 /* nav */
-nav{
+/* nav{
     background-color:#131313; 
     padding: 8px 15px;  
     position: sticky;
@@ -57,29 +57,30 @@ nav{
     justify-content:space-between ;
     align-items:center ;
 
-}
+} */
 
-nav ul{
+/* nav ul{
     list-style: none;
     background-color: #131313;
     display: flex 
-}
+} */
 
-nav ul li{
+/* nav ul li{
     list-style: none;
     margin: 4px 8px 4px 16px;
     
-}
+}  */
 
-nav ul li a{
+/* nav ul li a{
 font-size: 1.5rem;
 text-decoration: none;
 color:#F1F1F1;
 font-family: 'Libre Franklin', sans-serif;
 font-weight: 700;
 
-}
+}  */
 
+/* body */
 
 body{
     background-color: #131313;
@@ -88,11 +89,6 @@ body{
     
 }
 
-/* .backIndex{
-    background-color: #131313;
-    background-image: url(../img/backrground.png);
-    background-size: 100%;
-} */
 
 main img{
     width: 100%;
@@ -117,9 +113,10 @@ main img{
 }
 
 .pie{
+
     width: 30%;
     height: 80%;
-    margin: 4px 15px;
+    /* margin: 4px 15px; */
     
 }
 
@@ -179,7 +176,6 @@ main img{
     }
     
 
-
     
     /* 1024 */
     @media (min-width: 1024px){
@@ -212,13 +208,38 @@ main img{
 
 /* Hover sencillo en nav */
 nav ul li a:hover{
-    font-size: large
+    font-size: x-large;
+    
+} 
+
+/* cambios y colores bootstrap */
+
+.navbar-dark .navbar-nav .nav-link {
+color: #F1F1F1;
 }
 
+nav{ font-family:'Libre Franklin', sans-serif;
+    font-weight: 700;!important
 
+}
 
+.fuente{
+    color: #F1F1F1;
+}
 
+h1,h2,h3,p{
+    color: #F1F1F1;
+}
 
+form{
+    font-size: large;
+    color: #F1F1F1;
+    font-family:'Libre Franklin', sans-serif; 
+}
 
+.input{
+    font-size: small;
+    
+}
 
 
