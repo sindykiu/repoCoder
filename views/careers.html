@@ -14,7 +14,7 @@
 </head>
 <body>
         <!-- empieza nav con Bootstrap -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#131313 ;font-size: large;">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#131313 ;font-size: medium;">
             <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img src="../img/logo.png" alt="logo de trrp">
@@ -39,37 +39,49 @@
         </nav>
         <!-- termina nav con Bootstrap -->
         
-        <header class="px-4 my-4">
-            <h1>Sign with us</h1>
+        <header>
+            
         </header>
 <main>
-    
-    <form class="mx-4 my-5">
+    <div class="container-fluid">
+    <div class="row flex3">
+        
+        <!-- empieza form -->
+        <form class=" mx-4 my-4 col-sm-12 col-md-6 col-lg-4">
+            <legend class="display-5 py-2">Sign with us</legend>
+            
         <legend class="display-6">Personal information</legend>
         <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group">
             <label for="inputName4">Name</label>
-            <br>
-            <input class=input type="email" class="form-control" id="inputname" placeholder="Your name goes here">
+            <input type="email" class="form-control" id="inputname" placeholder="Your name goes here">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group">
             <label for="inputEmail4">Email</label>
             <br>
-            <input class=input type="email" class="form-control" id="inputname" placeholder="Your name goes here">
+            <input type="email" class="form-control" id="inputname" placeholder="Your email goes here">
         </div>
         </div>
         
-        <div class="form-group col-sm-4 col-md-4">
+        <div class="form-group">
             <label for="inputState">State</label>
             <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
+            <option selected class="input">Choose...</option>
             <option>Nuevo Leon</option>
             <option>CDMX</option>
             <option>Other</option>
             </select>
         </div>
         </form>
+        <!-- termina form -->
 
+        <div class="col-sm-12 col-md-6 col-lg-6 flex3">
+            <img src="../galeria/fotocareers.jpg" alt="foto modelos" class="w-75">
+        </div>
+
+    </div>
+    </div>
+        
     </main>
 <!-- Contenido pasado -->
 

@@ -208,7 +208,7 @@ main img{
 
 /* Hover sencillo en nav */
 nav ul li a:hover{
-    font-size: x-large;
+    font-size: large;
     
 } 
 
@@ -242,4 +242,31 @@ form{
     
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    
+    
 
+}
+
+.fotosHeight{
+height: 90%;
+object-fit: cover;
+
+}
+
+.widthSection{
+    width: 70%;
+}
+
+.flex2{
+    display: flex;
+    
+}
+
+.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
