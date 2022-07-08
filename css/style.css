@@ -1,272 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap");
+.navBarra {
+  background-color: #131313; }
+  .navBarra ul {
+    background-color: #131313; }
+    .navBarra ul li {
+      list-style: none; }
+      .navBarra ul li a {
+        text-decoration: none;
+        color: #F1F1F1;
+        font-weight: 600;
+        font-family: "Libre Franklin", sans-serif; }
 
-/* reset */
-*{
-    font-family:'Libre Franklin', sans-serif;
-    margin: 0;
-    padding: 0;
-    
+h1,
+h2,
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  color: #F1F1F1; }
 
-}
+h1 {
+  font-size: 3rem; }
 
-/* tamaño de fuentes y alineacion */
-html{
-    font-size: 62.5%;
-    color: #F1F1F1;
+h2 {
+  font-size: 2.5rem; }
 
-}
+h3 {
+  font-size: 2rem; }
 
-h1{
-    font-size: 3.5rem;
-    font-weight: 300;
-}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Libre Franklin", sans-serif;
+  color: #F1F1F1; }
 
-h2{
-    font-size: 3rem;
-    font-weight: 300;
+body {
+  background-color: #131313;
+  background-image: url(../img/textura.png);
+  background-attachment: fixed; }
 
-}
+main img {
+  width: 100%; }
 
-h3{
-    font-size: 2.5rem;
-    font-weight: 300;
-}
+form {
+  font-size: large;
+  color: #F1F1F1;
+  font-family: "Libre Franklin", sans-serif; }
 
-p{
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
-}
+.flex {
+  display: flex;
+  align-items: center; }
 
-.textCenter{
-    text-align: center;
-}
+.fotosHeight {
+  height: 90%;
+  object-fit: cover; }
 
-.letraForm{
-    font-size: 1.5rem;
-}
+.widthSection {
+  width: 70%; }
 
-/* nav */
-/* nav{
-    background-color:#131313; 
-    padding: 8px 15px;  
-    position: sticky;
-    top: 0;
-    left: 0; 
-    display:flex;
-    justify-content:space-between ;
-    align-items:center ;
+.flex2 {
+  display: flex; }
 
-} */
-
-/* nav ul{
-    list-style: none;
-    background-color: #131313;
-    display: flex 
-} */
-
-/* nav ul li{
-    list-style: none;
-    margin: 4px 8px 4px 16px;
-    
-}  */
-
-/* nav ul li a{
-font-size: 1.5rem;
-text-decoration: none;
-color:#F1F1F1;
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 700;
-
-}  */
-
-/* body */
-
-body{
-    background-color: #131313;
-    background-image: url(../img/textura.png);
-    background-attachment: fixed;
-    
-}
-
-
-main img{
-    width: 100%;
-}
-
-/* Box model */
-
-.whyHow{
-    width: 50%;
-    height: auto;
-    margin: 25px 20px 30px 20px ; 
-    
-    
-}
-
-
-    .about{
-    width: 30%;
-    height: auto;
-    margin: 30px 20px 0px 20px;
-    
-}
-
-.pie{
-
-    width: 30%;
-    height: 80%;
-    /* margin: 4px 15px; */
-    
-}
-
-/* Galería hecha con grid*/
-
-/* .contenedor{
-    width: 100%;
-    margin: 25px 20px 30px 20px ;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
-    column-gap: 10px;
-} */
-
-.sizeImg{
-    width: 100%;
-} 
-
-/* Mobile */
-
-
-    .container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas: 
-        "nav"
-        "header" 
-        "main"
-        "pie";
-        
-    }
-    
-    .miNav{
-        grid-area: nav;
-        top: 0%;
-        left: 0%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .miHeader{
-        grid-area: header;
-        width: 60%;
-        
-    
-    }
-    
-    .miMain{
-        grid-area: main;
-        
-    }
-    
-
-    .miFooter{
-        grid-area: pie;
-    }
-    
-
-    
-    /* 1024 */
-    @media (min-width: 1024px){
-    
-    .container{
-    grid-template-columns: repeat(3 1fr) ;
-    grid-template-rows:auto ;
-    grid-template-areas:
-    "nav nav nav"
-    "header header header"
-    "main main main"
-    "pie pie pie" ;
-    }
-    
-    .miNav{
-    flex-direction: row;
-    }
-    
-    .contenedor{
-    width: 100%;
-    margin: 25px 20px 30px 20px ;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
-    column-gap: 10px;
-    } 
-
-
-}
-
-/* Hover sencillo en nav */
-nav ul li a:hover{
-    font-size: large;
-    
-} 
-
-/* cambios y colores bootstrap */
-
-.navbar-dark .navbar-nav .nav-link {
-color: #F1F1F1;
-}
-
-nav{ font-family:'Libre Franklin', sans-serif;
-    font-weight: 700;!important
-
-}
-
-.fuente{
-    color: #F1F1F1;
-}
-
-h1,h2,h3,p{
-    color: #F1F1F1;
-}
-
-form{
-    font-size: large;
-    color: #F1F1F1;
-    font-family:'Libre Franklin', sans-serif; 
-}
-
-.input{
-    font-size: small;
-    
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    
-    
-
-}
-
-.fotosHeight{
-height: 90%;
-object-fit: cover;
-
-}
-
-.widthSection{
-    width: 70%;
-}
-
-.flex2{
-    display: flex;
-    
-}
-
-.flex3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.flex3 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

@@ -1,0 +1,22 @@
+ .navBarra{
+ background-color: $mainColor;
+
+ 
+ ul{
+     background-color: $mainColor;
+
+ 
+    li{
+ list-style: none;
+ 
+ 
+            a{
+        text-decoration: none;
+        color: $colorFuentes;
+        font-weight: $fontMP;
+        font-family: $mainFont;
+                
+            }
+        }
+    }
+}

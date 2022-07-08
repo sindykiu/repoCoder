@@ -1,0 +1,78 @@
+
+h1,
+h2,
+h3{
+    font-family: $mainFont;
+    font-weight: $fontLigera;
+    color: $colorFuentes;
+}
+
+h1{
+    font-size: $textHeadersUno;
+    
+}
+
+h2{
+    font-size: $textHedersDos;
+}
+
+h3{
+    font-size: $textHeadersTres;
+}
+
+p{
+    font-size: $textP;
+    font-weight: $fontMediana;
+    font-family: $mainFont;
+    color: $colorFuentes;
+}
+
+// extras
+body{
+    background-color: $mainColor;
+    background-image: url(../img/textura.png);
+    background-attachment: fixed;   
+}
+    
+
+main img{
+    width: 100%;
+}
+
+form{
+    font-size: large;
+    color: $colorFuentes;
+    font-family: $mainFont
+}
+
+// extra galería
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+.fotosHeight{
+height: 90%;
+object-fit: cover;
+
+}
+
+.widthSection{
+    width: 70%;
+}
+
+.flex2{
+    display: flex;
+    
+}
+
+.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
