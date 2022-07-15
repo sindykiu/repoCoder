@@ -1,0 +1,26 @@
+// mixins y extend
+
+.dFlex{
+    display: flex;
+    align-items: center;
+}
+
+.dFlex2{
+    @extend .dFlex;
+    justify-content: center;
+}
+
+@mixin texto ($size,$line-h,$weight,$color){
+    font-size: $size;
+    line-height: $line-h;
+    font-weight: $weight;
+    color: $color;
+    
+}
+
+p{
+    @include texto($textP,1.2rem,$fontMediana,$colorFuentes)
+}
+
+
+

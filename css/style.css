@@ -19,13 +19,13 @@ h3 {
   color: #F1F1F1; }
 
 h1 {
-  font-size: 3rem; }
-
-h2 {
   font-size: 2.5rem; }
 
-h3 {
+h2 {
   font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
 
 p {
   font-size: 1rem;
@@ -50,17 +50,24 @@ form {
   display: flex;
   align-items: center; }
 
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .fotosHeight {
   height: 90%;
   object-fit: cover; }
 
-.widthSection {
-  width: 70%; }
-
-.flex2 {
-  display: flex; }
-
-.flex3 {
+.dFlex, .dFlex2 {
   display: flex;
-  align-items: center;
+  align-items: center; }
+
+.dFlex2 {
   justify-content: center; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: #F1F1F1; }
