@@ -49,16 +49,8 @@ form {
 footer {
   background-color: #131313;
   text-align: center;
-  color: #F1F1F1; }
-
-.flex {
-  display: flex;
-  align-items: center; }
-
-.flex2 {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  color: #F1F1F1;
+  width: 100%; }
 
 .fotosHeight {
   height: 90%;
@@ -67,9 +59,26 @@ footer {
 .fotoWidth {
   width: 50%; }
 
-.flexFooter {
-  display: flex;
-  justify-content: center; }
+.bgImage3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-size: cover;
+  height: 100vh; }
+
+.pie {
+  margin-top: 10%; }
+
+.bgIndex {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+@media (max-width: 768px) {
+  .bgIndex {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../img/backrground2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; } }
 
 .dFlex, .dFlex2, .dFlex3 {
   display: flex;
@@ -82,7 +91,7 @@ footer {
   flex-direction: column; }
 
 .bgImage, .bgImage2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../galeria/fotoabout.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../galeria/fotoabout3.jpg);
   background-size: cover;
   height: 100vh;
   border-radius: 3px;

@@ -32,6 +32,8 @@ body{
     background-color: $mainColor;
     background-image: url(../img/textura.png);
     background-attachment: fixed;   
+    // position: relative;
+    
 }
     
 
@@ -49,23 +51,18 @@ form{
 footer{
     background-color: $mainColor;
     text-align: center;
-    color: $colorFuentes
+    color: $colorFuentes;
+    width: 100%;
+    
 }
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
+    
+
 
 // extra galería
 
-.flex{
-    display: flex;
-    align-items: center;
-
-}
-
-.flex2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 
 .fotosHeight{
@@ -80,7 +77,36 @@ object-fit: cover;
 }
 
 
-.flexFooter{
-    display: flex; 
-    justify-content:center;
+// extra de la página de about us
+
+.bgImage3{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-size:cover;
+    height: 100vh;
+    
+    
+
+}
+
+.pie{
+    margin-top: 10%;
+}
+
+
+
+
+.bgIndex{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media (max-width: 768px){
+    .bgIndex{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/backrground2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
 }
