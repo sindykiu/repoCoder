@@ -42,7 +42,14 @@ main img{
 form{
     font-size: large;
     color: $colorFuentes;
-    font-family: $mainFont
+    font-family: $mainFont;
+    
+}
+
+footer{
+    background-color: $mainColor;
+    text-align: center;
+    color: $colorFuentes
 }
 
 // extra galería
@@ -50,9 +57,6 @@ form{
 .flex{
     display: flex;
     align-items: center;
-    
-    
-    
 
 }
 
@@ -63,6 +67,7 @@ form{
     
 }
 
+
 .fotosHeight{
 height: 90%;
 object-fit: cover;
@@ -70,5 +75,12 @@ object-fit: cover;
 }
 
 
+.fotoWidth{
+    width: 50%;
+}
 
 
+.flexFooter{
+    display: flex; 
+    justify-content:center;
+}
