@@ -15,6 +15,10 @@
   .navbar-brand img {
     width: 350px; } }
 
+@media (max-width: 449px) {
+  .navbar-brand img {
+    width: 250px; } }
+
 h1,
 h2,
 h3,
