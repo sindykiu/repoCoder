@@ -95,7 +95,7 @@ footer {
   background: rgba(0, 0, 0, 0);
   opacity: 0.6; }
 
-.card-title {
+.cardTitle {
   transform: translateY(400%); }
 
 .dFlex, .dFlex2, .dFlex3 {
