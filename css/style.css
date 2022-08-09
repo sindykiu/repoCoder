@@ -11,9 +11,14 @@
         font-weight: 600;
         font-family: "Libre Franklin", sans-serif; }
 
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 350px; } }
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 300;
   color: #F1F1F1; }
@@ -35,8 +40,7 @@ p {
 
 body {
   background-color: #131313;
-  background-image: url(../img/textura.png);
-  background-attachment: fixed; }
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); }
 
 main img {
   width: 100%; }
@@ -59,26 +63,36 @@ footer {
 .fotoWidth {
   width: 50%; }
 
-.bgImage3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-  background-size: cover;
-  height: 100vh; }
+.fotosGaleria {
+  border-radius: 4px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); }
+
+.fotosGaleria:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); }
 
 .pie {
   margin-top: 10%; }
 
-.bgIndex {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; }
+.bgCard {
+  background-color: #1c1c1c;
+  cursor: default; }
 
-@media (max-width: 768px) {
-  .bgIndex {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../img/backrground2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh; } }
+.bgForm {
+  background-color: #131313;
+  border-radius: 4px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%; }
+
+.bgOpacity {
+  background: rgba(0, 0, 0, 0);
+  opacity: 0.6; }
+
+.card-title {
+  transform: translateY(400%); }
 
 .dFlex, .dFlex2, .dFlex3 {
   display: flex;
@@ -94,11 +108,11 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../galeria/fotoabout3.jpg);
   background-size: cover;
   height: 100vh;
-  border-radius: 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); }
 
 .bgImage2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../galeria/fotoabout2.jpg);
@@ -107,5 +121,11 @@ footer {
 p {
   font-size: 1rem;
   line-height: 1.2rem;
+  font-weight: 400;
+  color: #F1F1F1; }
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 400;
   color: #F1F1F1; }

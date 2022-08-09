@@ -1,7 +1,8 @@
 
 h1,
 h2,
-h3{
+h3,
+h4{
     font-family: $mainFont;
     font-weight: $fontLigera;
     color: $colorFuentes;
@@ -20,6 +21,7 @@ h3{
     font-size: $textHeadersTres;
 }
 
+
 p{
     font-size: $textP;
     font-weight: $fontMediana;
@@ -27,12 +29,11 @@ p{
     color: $colorFuentes;
 }
 
+
 // extras
 body{
     background-color: $mainColor;
-    background-image: url(../img/textura.png);
-    background-attachment: fixed;   
-    // position: relative;
+    background:$bgGeneral ;
     
 }
     
@@ -55,14 +56,9 @@ footer{
     width: 100%;
     
 }
-    // position: absolute;
-    // bottom: 0;
-    // width: 100%;
-    
 
 
 // extra galería
-
 
 
 .fotosHeight{
@@ -71,22 +67,19 @@ object-fit: cover;
 
 }
 
-
 .fotoWidth{
     width: 50%;
 }
 
-
-// extra de la página de about us
-
-.bgImage3{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-    background-size:cover;
-    height: 100vh;
+.fotosGaleria{
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px $boxShadow
     
-    
-
 }
+.fotosGaleria:hover{
+    box-shadow: 5px 5px 20px $boxShadow
+}
+
 
 .pie{
     margin-top: 10%;
@@ -94,19 +87,34 @@ object-fit: cover;
 
 
 
-
-.bgIndex{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.bgCard{
+    background-color:$bgGris1;
+    cursor: default;
+    
 }
 
-@media (max-width: 768px){
-    .bgIndex{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/backrground2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
+.bgForm{
+    background-color: $mainColor;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px $boxShadow
 }
+
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+
+
+.bgOpacity{
+    background:(rgba(0,0,0,0.0));
+    opacity: 0.6;
+}
+
+
+.card-title{
+    transform: translateY(400%);
+
+}
+

@@ -3,9 +3,9 @@
 
  
  ul{
-     background-color: $mainColor;
+    background-color: $mainColor;
 
- 
+
     li{
  list-style: none;
  
@@ -18,5 +18,12 @@
                 
             }
         }
+    }
+}
+
+
+@media (max-width: 768px){
+    .navbar-brand img{
+    width: 350px;
     }
 }
